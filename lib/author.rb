@@ -5,11 +5,5 @@ class Author
     hello
   end
   
-  def method_anem
-  if
-  dfaadf
-  else
-    puts "hello"
-    end 
-  end
+
 end
