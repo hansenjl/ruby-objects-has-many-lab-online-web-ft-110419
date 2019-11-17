@@ -10,5 +10,7 @@ class Artist
     Song.all.find_all{|s|s.artist == self }
   end
   
-  def 
+  def add_song(song)
+    song.artist = self
+  end
 end
