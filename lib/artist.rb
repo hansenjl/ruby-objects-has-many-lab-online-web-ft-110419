@@ -9,4 +9,6 @@ class Artist
   def songs 
     Song.all.find_all{|s|s.artist == self }
   end
+  
+  def 
 end
